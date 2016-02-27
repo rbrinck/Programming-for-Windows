@@ -48,5 +48,7 @@ This will seem almost impossible until you remember that you can just hit the wi
 
 ![Add] (AddPython.jpg)
 
+8)Close your command prompts and reopen them
+
 ----
 ## Install pip
