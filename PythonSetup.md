@@ -44,7 +44,7 @@ This will seem almost impossible until you remember that you can just hit the wi
 
 7) Then click "New" ("1" in the picture below) and type in the file path where you installed Python.
 
-*If you just did the default install, it should be under "C:". If not, just do a Windows search under "This PC".*
+*If you just did the default install, it should be under "C:" or "C:\Users\[Username]\AppData\Local\Programs\". If not, just do a Windows search under "This PC".*
 
 ![Add] (AddPython.jpg)
 
