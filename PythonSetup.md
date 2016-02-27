@@ -7,7 +7,7 @@ Download an installer for your preferred version of [Python] (https://www.python
 *Hint: Make sure that the version you download is compatible with whatever you're working on.*
 
 ----
-## Solving the Window riddle
+## Getting Windows to Recognize Python Exists
 Most people can go straight from running the installer to being able to use python. However, us lucky folks on Windows have an extra step that likes to get in our way.
 
 There *are* [instructions on java.com] (https://www.java.com/en/download/help/path.xml) on how to make things work on a Windows machine, but as of the writing of this markdown document, it doesn't have anything for Windows 10.
@@ -47,3 +47,6 @@ This will seem almost impossible until you remember that you can just hit the wi
 *If you just did the default install, it should be under "C:". If not, just do a Windows search under "This PC".*
 
 ![Add] (AddPython.jpg)
+
+----
+## Install pip
