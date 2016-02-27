@@ -52,3 +52,4 @@ This will seem almost impossible until you remember that you can just hit the wi
 
 ----
 ## Install pip
+Search for "pip" in Windows and make sure it's there. If it's not, you might need an updated version of Python.
