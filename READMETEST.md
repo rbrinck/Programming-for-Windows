@@ -8,14 +8,14 @@ The latest incarnation of WebCLIPS
 ![Beloved Mascot](alex.jpg)
 
 ## Table of Contents
-1. [Getting Started](#Getting)
-2. [Code Quality](#Code)
-  1. [Pylint](#Pylint)
+1. [Getting Started](#getting)
+2. [Code Quality](#code)
+  2. [Pylint](#pylint)
   2. [pytest](#pytest)
-3. [Migrations](#Migrations)
-  1. [Alembic](#Alembic)
-4. [API](#API)
-  1. [API Authorization](#APIAuthorization)
+3. [Migrations](#migrations)
+  1. [Alembic](#alembic)
+4. [API](#api)
+  1. [API Authorization](#apiAuthorization)
   2. [apiDoc](#apiDoc)
 
 ###Getting Started
