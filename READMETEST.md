@@ -10,13 +10,13 @@ The latest incarnation of WebCLIPS
 ## Table of Contents
 1. [Getting Started](#Getting Started)
 2. [Code Quality](#Code Quality)
-    a. [Pylint](#Pylint)
-    b. [pytest](#pytest)
-5. [Migrations](#Migrations)
-    a. [Alembic](#Alembic)
-7. [API](#API)
-    a. [API Authorization](#API Authorization)
-    b. [apiDoc](#apiDoc)
+  1. [Pylint](#Pylint)
+  2. [pytest](#pytest)
+3. [Migrations](#Migrations)
+  1. [Alembic](#Alembic)
+4. [API](#API)
+  1. [API Authorization](#API Authorization)
+  2. [apiDoc](#apiDoc)
 
 ###Getting Started
 1. Make sure you have Phython 3 installed on your computer.
