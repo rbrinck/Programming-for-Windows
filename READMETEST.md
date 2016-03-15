@@ -8,13 +8,13 @@ The latest incarnation of WebCLIPS
 ![Beloved Mascot](alex.jpg)
 
 ## Table of Contents
-1. [Example](#example)
+1. [Example](##example)
 2. [Example2](#example2)
-3. [Third Example](#third-example)
+3. [Third Example](##third-example)
 
 ## Example
 ## Example2
-## Third Example
+### Third Example
 
 ###Getting Started
 1. Make sure you have Phython 3 installed on your computer.
