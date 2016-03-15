@@ -11,10 +11,12 @@ The latest incarnation of WebCLIPS
 1. [Example](##example)
 2. [Example2](#example2)
 3. [Third Example](#third-example)
+4. [Example4](#example4)
 
-## Example
+# Example
 ## Example2
 ### Third Example
+#### Example4
 
 ###Getting Started
 1. Make sure you have Phython 3 installed on your computer.
