@@ -8,14 +8,14 @@ The latest incarnation of WebCLIPS
 ![Beloved Mascot](alex.jpg)
 
 ## Table of Contents
-1. [Getting Started](#Getting Started)
-2. [Code Quality](#Code Quality)
+1. [Getting Started](#Getting)
+2. [Code Quality](#Code)
   1. [Pylint](#Pylint)
   2. [pytest](#pytest)
 3. [Migrations](#Migrations)
   1. [Alembic](#Alembic)
 4. [API](#API)
-  1. [API Authorization](#API Authorization)
+  1. [API Authorization](#APIAuthorization)
   2. [apiDoc](#apiDoc)
 
 ###Getting Started
@@ -73,7 +73,7 @@ Start up API Locally:<br>
 
 Once started, navigate to [localhost:8888](http://localhost:8888) to access the API
 
-####API Authorization
+####APIAuthorization
 For endpoints that require authorization, add an entry to the user table (a uuid value of your choice) and send that uuid in the Authorization header.<br>
 `INSERT INTO public.user VALUES ('6b3ae5e8-30a6-11e5-a0b0-34e6d71ecad3');`<br>
 `curl -i http://localhost:8888/api/1.0.0/question -H "Authorization: 6b3ae5e8-30a6-11e5-a0b0-34e6d71ecad3"`
