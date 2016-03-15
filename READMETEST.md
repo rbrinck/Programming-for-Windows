@@ -8,15 +8,15 @@ The latest incarnation of WebCLIPS
 ![Beloved Mascot](alex.jpg)
 
 ## Table of Contents
-1. [Example](##example)
-2. [Example2](#example2)
-3. [Third Example](#third-example)
-4. [Example4](#example4)
-
-# Example
-## Example2
-### Third Example
-#### Example4
+1. [Getting Started](#Getting Started)
+2. [Code Quality](#Code Quality)
+    a. [Pylint](#Pylint)
+    b. [pytest](#pytest)
+5. [Migrations](#Migrations)
+    a. [Alembic](#Alembic)
+7. [API](#API)
+    a. [API Authorization](#API Authorization)
+    b. [apiDoc](#apiDoc)
 
 ###Getting Started
 1. Make sure you have Phython 3 installed on your computer.
