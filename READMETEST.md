@@ -8,15 +8,15 @@ The latest incarnation of WebCLIPS
 ![Beloved Mascot](alex.jpg)
 
 ## Table of Contents
-1. [Getting Started](#getting)
-2. [Code Quality](#code)
+1. [Getting Started](#getting-started)
+2. [Code Quality](#code-quality)
   2. [Pylint](#pylint)
   2. [pytest](#pytest)
 3. [Migrations](#migrations)
   1. [Alembic](#alembic)
 4. [API](#api)
-  1. [API Authorization](#apiAuthorization)
-  2. [apiDoc](#apiDoc)
+  1. [API Authorization](#apiauthorization)
+  2. [apiDoc](#apidoc)
 
 ###Getting Started
 1. Make sure you have Phython 3 installed on your computer.
