@@ -31,6 +31,8 @@ The latest incarnation of WebCLIPS
     1. To do so, follow steps 1-6.1 in [this tutorial](https://github.com/rbrinck/Programming-for-Windows/blob/master/PythonSetup.md), but instead of clicking "edit" in step 6.3, click "new" and insert "CLIPS_DATABASE_URI" as the "variable name" and "postgresql://yourusername:yourpostgrespassword@host/db_name" as the "variable value".
     *If you don't remember creating a username, it's probably "postgres", which is currently the default.*
 
+    2. __You may have to restart your computer after adding the environment variable__
+
 3. Make sure you have pip and that it's working. An easy way to do this is to run `pip3 --version` or `pip --version`. You can also just do a search on your drive. If it's not there, you might want to look into getting an updated version of Python.
     1. You can upgrade your pip by running `python -m pip install --upgrade pip`.
     
