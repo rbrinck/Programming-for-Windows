@@ -19,22 +19,24 @@ The latest incarnation of WebCLIPS
   2. [apiDoc](#apidoc)
 
 ###Getting Started
-1. Make sure you have Phython 3 installed on your computer.
+1. Make sure the following are installed on your computer and in your path.
+    2. Phython (Any of the version 3s)
+    3. 
 
-*For instructions on how to get Python running on a Windows 10 machine, see [here] (https://help.github.com/articles/relative-links-in-readmes/). and [here] (https://github.com/rbrinck/Programming-for-Windows/blob/master/PythonSetup.md)*
+    *For instructions on how to get Python running on a Windows 10 machine, see [here] (https://github.com/rbrinck/Programming-for-Windows/blob/master/PythonSetup.md)*
 
-2. Make sure you have pip and that it's working. An easy way to do this is to run `pip3 --version` or `pip --version` depending on which you feel like using. You can also just do a search on your drive. If it's not there, you might want to look into getting an updated version of Python.
-
-*Note: If you also have Perl installed, this has it's own pip that your Command Prompt will default to unless you specify "pip.exe"*
+2. Make sure you have pip and that it's working. An easy way to do this is to run `pip3 --version` or `pip --version`. You can also just do a search on your drive. If it's not there, you might want to look into getting an updated version of Python.
+    1. You can upgrade your pip by running `python -m pip install --upgrade pip`.
+    *Note: If you also have Perl installed, this has it's own pip that your Command Prompt will default to unless you specify "pip.exe". (This will apply any time you want to use the `pip` command in Python.)*
 
 3. If you're not already there, cd to your CLIPS directory.
 
 4. As mentioned below in "Code Quality", you may need to install several tools by running `sudo pip3 install -r requirements.txt` (or if you're in Windows, you can skip `sudo`).
+    1. If you're having problems, trying running `pip install sh`.
+    *"sh" is only supported by linux and osx. For instructions on how to circumvent this problem, see [this page](https://github.com/rbrinck/Programming-for-Windows/blob/master/SubstitutingSH.md)*
 
-5. To start the server, run
-`python3 startup.py` in your command line in the CLIPS directory on your computer.
-
-*If this doesn't work, try `python startup.py`*
+5. To start the server, run `python3 startup.py` in your command line in the CLIPS directory on your computer.
+     *If this doesn't work, try `python startup.py`*
 
 ###Code Quality
 We use several tools to check the quality of our code.  These can all be installed locally by running:<br>
